@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book an Appointment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Book an Appointment</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="doctors.html">Doctors</a>
+      <a href="appointments.html">Appointments</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <form id="appointmentForm" onsubmit="return validateForm()">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="doctor">Choose Doctor:</label>
+      <select id="doctor" name="doctor" required>
+        <option value="">Select Doctor</option>
+        <option value="John Doe">Dr. John Doe</option>
+        <option value="Jane Smith">Dr. Jane Smith</option>
+      </select>
+
+      <label for="date">Appointment Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <button type="submit">Book Appointment</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Hospital Management. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

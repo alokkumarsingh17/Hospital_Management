@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Doctors</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+  
+  
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+
+    .doctor-card {
+      display: inline-block;
+      margin: 15px;
+      background-color: white;
+      border-radius: 40px;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+     
+    }
+
+    .doctor-card:hover {
+      transform: scale(1.05);
+      border: 2px solid black;
+    }
+
+    .doctor-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 10px;
+      opacity: 0;
+      animation: fadeIn 2s forwards;
+    }
+ 
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+  </style>
+</head>
+<body class="doctor">
+  <header>
+    <h1>Meet Our Doctors</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="doctors.html">Doctors</a>
+      <a href="appointments.html">Appointments</a>
+      <a href="Bill.html">Bill</a>
+    </nav>
+  </header>
+
+  
+    <div class="doc">
+    <div class="doctor-card">
+  <img src="Anime.jpg" alt="Doctor 1" width="200" height="150">
+      <div class="doctor-name"><a href="Alok.html" style="text-decoration: none">Dr. Alok Kumar Singh</a></div>
+    </div>
+    <div class="doctor-card">
+      <img src="Anime.jpg" alt="Doctor 2" width="200" height="150">
+      <div class="doctor-name"><a href="Akash.html" style="text-decoration: none">Dr. Akash Yadav</a></div>
+    </div>
+    <div class="doctor-card">
+      <img src="Anime.jpg" alt="Doctor 3" width="200" height="150">
+      <div class="doctor-name">Dr. Rajendra Kumar</div>
+    </div>
+    <div class="doctor-card">
+      <img src="Anime.jpg" alt="Doctor 3" width="200" height="150">
+      <div class="doctor-name">Dr. Rakesh</div>
+    </div>
+  </div>
+
+  
+  <section id="services" class="services-section">
+    <h2>Our Branches</h2>
+    <div class="service-branch">
+      <div class="service-card">
+<h3 class="Agra">Agra</h3>
+      </div>
+      <div class="service-card">
+        <h3 class="lucknow">Lucknow</h3>
+      </div>
+      <div class="service-card">
+        <h3 class="kanpur">Kanpur</h3>
+      </div>
+      <div class="service-card">
+        <h3 class="delhi">New Delhi</h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Hospital Management. All rights reserved.</p>
+  </footer>
+</body>
+</html>

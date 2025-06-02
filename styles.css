@@ -1,0 +1,352 @@
+body {
+    background-image: url('Hosp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ab {
+    display: flex;
+    background-color: #ced984;
+    width: 350px;
+    border-radius: 30px;
+
+    flex-direction: column;
+    background-image: url(medical-speciality.jpg);
+    background-size: cover;
+}
+
+.ab h2 {
+    margin-left: 30px;
+}
+
+.ab:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.doctor {
+    background-image: url("doct2.jpg");
+    background-size: cover;
+
+}
+
+.doc {
+    background-color: #fbfbe6;
+    display: flex;
+    margin: 40px;
+    border-radius: 20px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.docs:hover {
+    text-decoration: underline;
+    border: 3px solid yellow;
+}
+
+.services-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.service-card:hover {
+    background-color: rgb(180, 219, 203);
+    color: black;
+    border: 2px solid #23c26d;
+}
+
+.service-card h3 {
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #555;
+}
+
+.appoint {
+    background-image: url("appoint.jpg");
+    background-size: fill;
+    background-repeat: no-repeat;
+
+
+}
+
+.appoint-color {
+    margin-top: 150px;
+    height: 270px;
+    padding-top: 30px;
+    background-color: rgb(176, 209, 204);
+    max-width: 400px;
+    display: flex;
+
+    justify-content: center;
+    opacity: 0.9;
+    border: solid 1px black;
+}
+
+
+.billing {
+    background-image: url(bill.jpg);
+    display: inline;
+    background-size: cover;
+    border-radius: 2px;
+}
+
+.bill-color {
+    margin-top: 70px;
+    height: 450px;
+    padding-top: 20px;
+    background-color: rgb(185, 229, 203);
+    display: flex;
+    max-inline-size: 260px;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+.navsearch {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #2a7398;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 3px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #243642;
+
+    border-radius: 17px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(5, 196, 11, 0.1);
+}
+
+form label,
+form input,
+form select,
+form textarea {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(28, 50, 91);
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.header-content {
+    display: flex;
+    text-align: center;
+    gap: 350px;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.footer-content div {
+    margin: 10px;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+}
+
+.bb {
+    display: flex;
+}
+
+.services-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-branch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    height: 180px;
+    padding-top: 1px;
+    width: 250px;
+    text-align: center;
+    opacity: 0.7;
+    margin: auto;
+
+}
+
+.service-card:hover {
+    background-color: rgb(201, 230, 206);
+    color: black;
+    border: 2px solid #1b1e16;
+}
+
+.service-card h3 {
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #555;
+}
+
+.Agra {
+    background-image: url('Agra2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(32, 29, 29);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 150px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+.lucknow {
+    background-image: url('Lucknow.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(15, 12, 12);
+    margin-top: 10px;
+    padding: 10px;
+    height: 150px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+.kanpur {
+    background-image: url('kanpur.png');
+    background-size: cover;
+    background-position: center;
+    color: rgb(26, 19, 19);
+    margin-top: 10px;
+    padding: 10px;
+    height: 150px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+.delhi {
+    background-image: url('delhi.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(26, 19, 19);
+    margin-top: 10px;
+    padding: 10px;
+    height: 150px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
